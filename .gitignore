@@ -1,0 +1,15 @@
+## VS 2015
+
+.vs/
+artifacts/
+wwwroot/
+node_modules/
+bower_components/
+project.lock.json
+
+## Windows Ignores
+
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
