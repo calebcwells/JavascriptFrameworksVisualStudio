@@ -10,6 +10,10 @@ module.exports = {
         filename: '[name].js'
     },
     module: {
+        //preLoaders: [{
+        //    test: /\.ts$/,
+        //    loader: 'tslint'
+        //}],
         loaders: [
             {
                 test: /\.ts$/,
@@ -24,5 +28,5 @@ module.exports = {
     plugins: [
         new webpack.optimize.CommonsChunkPlugin('common', 'common.js')
     ],
-    watch: true
+    devtool: 'source-map'
 };

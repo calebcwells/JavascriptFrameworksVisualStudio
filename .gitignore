@@ -2,7 +2,7 @@
 
 .vs/
 artifacts/
-wwwroot/
+**/wwwroot/app/
 node_modules/
 bower_components/
 project.lock.json

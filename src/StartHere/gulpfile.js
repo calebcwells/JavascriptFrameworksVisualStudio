@@ -12,6 +12,7 @@ gulp.task('browser-sync', function () {
     });
 
     gulp.watch(config.root + 'app/*.js', browserSync.reload);
+    gulp.watch('./Views/**/*.cshtml', browserSync.reload);
 });
 
 var config = {
