@@ -8,7 +8,7 @@ using Microsoft.AspNet.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace StartHere
+namespace Angular2.Web
 {
     public class Startup
     {

@@ -6,6 +6,11 @@ gulp.task('clean', function () {
     del(config.app + '*');
 });
 
+gulp.task("favicon", function () {
+    gulp.src(config.favicon)
+        .pipe(gulp.dest(config.root));
+});
+
 gulp.task('browser-sync', function () {
     browserSync.init({
         proxy: 'localhost:32000'
@@ -16,6 +21,7 @@ gulp.task('browser-sync', function () {
 });
 
 var config = {
+    favicon: "Content/images/favicon.ico",
     root: './wwwroot/',
     app: './wwwroot/app/'
 };

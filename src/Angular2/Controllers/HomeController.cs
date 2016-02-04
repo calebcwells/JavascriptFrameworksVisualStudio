@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNet.Mvc;
 
-namespace StartHere.Controllers
+namespace Angular2.Web.Controllers
 {
     public class HomeController : Controller
     {
