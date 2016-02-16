@@ -30,8 +30,6 @@ namespace Angular2.Web
 
         public void Configure(IApplicationBuilder app)
         {
-            app.UseBrowserLink();
-
             app.UseIISPlatformHandler();
 
             app.UseStaticFiles();
