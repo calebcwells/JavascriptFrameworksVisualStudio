@@ -13,7 +13,7 @@ module.exports = {
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', filename: 'vendor.js', minChunks: Infinity }),
         new webpack.optimize.CommonsChunkPlugin({ name: 'common', filename: 'common.js', minChunks: 2, chunks: ['app', 'vendor'] }),
-        new BrowserSync({ proxy: 'localhost:55274' })
+        new BrowserSync({ proxy: 'localhost:46145' })
     ],
     resolve: {
         extensions: ['', '.ts', '.js']
