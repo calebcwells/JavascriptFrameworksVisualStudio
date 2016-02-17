@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MVC6.Web.Models.Company>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>MVC 6 Starter Project</title>
+</head>
+<body>
+    <h1>Company List</h1>
+    <ul>
+        @foreach (var company in Model)
+        {
+            <li>@company.Id - @company.Name</li>
+        }
+    </ul>
+</body>
+</html>
