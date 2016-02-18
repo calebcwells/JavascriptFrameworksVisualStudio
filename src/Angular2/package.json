@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"name": "AngularChat",
+	"name": "Angular2Start",
 	"private": true,
   "devDependencies": {
     "browser-sync": "2.11.1",

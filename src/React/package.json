@@ -1,0 +1,22 @@
+{
+	"version": "1.0.0",
+	"name": "ReactStart",
+	"private": true,
+  "devDependencies": {
+    "babel-core": "6.5.2",
+    "babel-loader": "6.2.3",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-react": "6.5.0",
+    "babel-plugin-transform-runtime": "6.5.2",
+    "babel-eslint": "5.0.0",
+    "eslint-loader": "1.3.0",
+    "eslint-plugin-react": "3.16.1",
+    "webpack": "1.12.13"
+  },
+  "dependencies": {
+    "react": "0.14.7",
+    "react-dom": "0.14.7",
+    "babel-polyfill": "6.5.0",
+    "babel-runtime": "6.5.0"
+  }
+}
