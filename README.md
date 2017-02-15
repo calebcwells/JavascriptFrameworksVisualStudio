@@ -1,4 +1,7 @@
-# Start Here
+#This project is out of date
+Follow the steps at http://blog.stevensanderson.com/2016/05/02/angular2-react-knockout-apps-on-aspnet-core/ to build out an Angular 2 or React solution for use in Visual Studio
+
+
 Starter projects for MVC 6, Angular 2 and React in Visual Studio 2015
 
 ### Dependencies
