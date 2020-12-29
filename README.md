@@ -1,2 +1,2 @@
-# This project is out of date
+# This project has been archived
 Follow the steps at http://blog.stevensanderson.com/2016/05/02/angular2-react-knockout-apps-on-aspnet-core/ to build out an Angular 2 or React solution for use in Visual Studio. If you are looking for a solution that integrates Angular CLI and dotnet in Visual Studio giving you the best of both worlds you can view the [repository](https://github.com/calebcwells/angular2-cli-visualstudio) I created for that purpose.
